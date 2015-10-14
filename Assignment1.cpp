@@ -1,3 +1,5 @@
+//A simple ditionary by: Melance Gaudreault
+
 #include <cstdio>
 #include <cctype>
 #include <iostream>
