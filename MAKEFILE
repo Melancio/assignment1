@@ -1,0 +1,10 @@
+all: Assignment1
+
+Assignment1: Assignment1.o
+	g++ Assignment1.o -o Assignment1
+
+Assignment1.o: Assignment1.cpp
+	g++ -c Assignment1.cpp
+
+clean:
+	rm Assignment1 Assignment1.o LabAss2main.o
